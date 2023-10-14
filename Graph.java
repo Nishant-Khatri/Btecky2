@@ -11,11 +11,8 @@ public class Graph {
    adj[i]=new LinkedList<Integer>();
   
   }
-  int count=0;
-//  for(LinkedList l : this.adj) {
-//   System.out.println("Linked List "+ (count++) +l);
-//  }
-  }
+ int count=0;
+ }
  public void addedge(int source,int destination) {
 
   adj[source].add(destination);
